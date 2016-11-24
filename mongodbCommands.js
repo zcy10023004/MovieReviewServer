@@ -32,8 +32,8 @@ exports.getReviews = function(db, title, callback) {
    }
       db.command(cmd,
       function(err, results) {
-        console.log(results.cursor);
-        callback();
+        //console.log(results.cursor);
+        callback(results);
     }
   );
 };

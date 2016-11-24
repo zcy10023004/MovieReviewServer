@@ -7,7 +7,7 @@
 6 info start mongo-server@0.0.1
 7 verbose unsafe-perm in lifecycle true
 8 info mongo-server@0.0.1 Failed to exec start script
-9 verbose stack Error: mongo-server@0.0.1 start: `node server.js`
+9 verbose stack Error: mongo-server@0.0.1 start: `node app.js`
 9 verbose stack Exit status 1
 9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
 9 verbose stack     at emitTwo (events.js:87:13)
@@ -24,13 +24,13 @@
 14 error node v4.3.2
 15 error npm  v2.14.12
 16 error code ELIFECYCLE
-17 error mongo-server@0.0.1 start: `node server.js`
+17 error mongo-server@0.0.1 start: `node app.js`
 17 error Exit status 1
-18 error Failed at the mongo-server@0.0.1 start script 'node server.js'.
+18 error Failed at the mongo-server@0.0.1 start script 'node app.js'.
 18 error This is most likely a problem with the mongo-server package,
 18 error not with npm itself.
 18 error Tell the author that this fails on your system:
-18 error     node server.js
+18 error     node app.js
 18 error You can get their info via:
 18 error     npm owner ls mongo-server
 18 error There is likely additional logging output above.
