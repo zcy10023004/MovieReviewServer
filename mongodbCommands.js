@@ -7,12 +7,12 @@ exports.getDbStats = function(db, callback) {
   );
 };
 
-exports.insertReview = function(db, title, username, review, callback) {
+exports.insertReview = function(db, title, username, review, time, callback) {
 
 	var cmd = {
       insert: title,
       documents: [
-         { user: username, content: review }
+         { user: username, content: review, time: time }
       ],
       ordered: false,
       writeConcern: { w: "majority", wtimeout: 5000 }

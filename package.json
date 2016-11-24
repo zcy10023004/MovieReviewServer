@@ -9,6 +9,7 @@
     "body-parser": "1.15.2"
   },
   "scripts": {
+  	"mongo-mac": "mkdir mongo-db; sudo ./mongod --dbpath mongo-db",
     "start": "node app.js"
   }
 }
