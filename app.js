@@ -23,7 +23,8 @@ var database;
 MongoClient.connect("mongodb://" + url + ":" + mongoPort + "/" + databaseName, function(err, db) {
 	assert.equal(null, err);
   console.log("Connected successfully to mongodb");
-  database = db
+  database = db;
+  dbCmd.getDbStats(database, function(){});
 });
 
 app.post('/review', function(req, res){
