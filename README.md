@@ -5,7 +5,7 @@ to run the server, run mango db first.
 
 commands:
 
-  npm install : install al dependencies
+  npm install : install all dependencies
   
   npm run mango-mac : start mango server for mac (dont know if this works in specific enviroment, may need to install mangodb first)
   
